@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'vyaz';
+    src: url(../fonts/tupo-vyaz_regular.ttf) format('woff');
+}
+
+@font-face {
+    font-family: 'vyaz-bold';
+    src: url(../fonts/tupo-vyaz_bold.ttf) format('woff');
+}
+
+.header {
+    display: flex;
+    margin: 13px auto 60px auto;
+}
+
+.header__logo {
+    max-width: 92px;
+}
+
+.header__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__name {
+    font-family: 'vyaz', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+
+    margin: 0;
+
+    text-transform: capitalize;
+
+    color: #452F02; 
+}
+
+.header__name_app {
+    font-family: 'vyaz-bold',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin: 0;
+
+    text-transform: capitalize;
+
+    color: #452F02;
+}
